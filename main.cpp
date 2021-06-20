@@ -22,6 +22,14 @@ if (op == '-'){
   res = Subtração (&n1,&n2);
 }
 
+if (op == '*'){
+  res = Multiplicação (&n1,&n2);
+}
+
+if (op == '/'){
+  res = Divisão (&n1,&n2);
+}
+
 imprimir (res);
 
 }
